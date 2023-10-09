@@ -1,7 +1,7 @@
-import Logo from "components/UI/Logo";
+import MainScreen from "components/MainScreen";
 
 const App: React.FC<{}> = () => {
-  return <Logo type="text-icon" />;
+  return <MainScreen />;
 };
 
 export default App;
