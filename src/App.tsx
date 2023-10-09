@@ -1,5 +1,7 @@
+import Logo from "components/UI/Logo";
+
 const App: React.FC<{}> = () => {
-  return <h1>Hello world</h1>;
+  return <Logo type="text-icon" />;
 };
 
 export default App;
